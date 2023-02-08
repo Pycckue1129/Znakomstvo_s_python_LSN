@@ -16,5 +16,5 @@ print(dictionary[895])
 del dictionary[895]  # Удаление элемента
 for item in dictionary:
     print('{}: {}'.format(item, dictionary[item]))
-for (k,v) in dictionary.items():
+for (k, v) in dictionary.items():
     print(k, v)

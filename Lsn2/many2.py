@@ -7,7 +7,7 @@ u = a.union(b)  # Объеденяет и оставляет уникальны�
 i = a.intersection()  # Находит одинаковые элементы
 dl = a.difference(b)  # Находит разность
 dr = b.difference(a)  # Находит разность
-q = a.union(b).difference(a.intersection(b))  # Все вместе
+q = a.union(b).difference(a.intersection(b))  # Все вместе  
 print(u)
 print(i)
 print(dl)
